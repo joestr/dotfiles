@@ -1,5 +1,5 @@
 # dotfiles
 My dotfiles
 
-Shell - Bash
-Editor - Nano
+Shell: Bash  
+Editor: Nano
