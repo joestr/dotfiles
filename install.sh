@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://github.com/joestr/dotfiles/blob/master/.bashrc -O ~/.bashrc
-wget https://github.com/joestr/dotfiles/blob/master/.nanorc -O ~/.nanorc
-wget https://github.com/joestr/dotfiles/blob/master/.profile -O ~/.profile
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/.bashrc -O ~/.bashrc
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/.nanorc -O ~/.nanorc
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/.profile -O ~/.profile
 exit
