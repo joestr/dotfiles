@@ -2,5 +2,5 @@
 My dotfiles
 
 Shell: Bash  
-Editor: Nano
+Editor: Nano  
 Package-Manager: apt
