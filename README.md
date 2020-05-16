@@ -1,6 +1,7 @@
 # dotfiles
 My dotfiles
 
-Shell: Bash  
-Editor: Nano  
-Package-Manager: apt
+**OS**: Debian 10  
+**Shell**: Bash  
+**Editor**: Nano  
+**Package-Manager**: apt
