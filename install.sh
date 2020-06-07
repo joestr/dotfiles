@@ -5,4 +5,4 @@ wget https://raw.githubusercontent.com/joestr/dotfiles/master/.nanorc -O ~/.nano
 wget https://raw.githubusercontent.com/joestr/dotfiles/master/.bash_login -O ~/.bash_login
 wget https://raw.githubusercontent.com/joestr/dotfiles/master/.bash_aliases -O ~/.bash_aliases
 wget https://raw.githubusercontent.com/joestr/dotfiles/master/.bash_logout -O ~/.bash_logout
-exit
+logout
