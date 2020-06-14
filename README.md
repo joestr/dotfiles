@@ -3,8 +3,8 @@ My dotfiles
 
 ## Details
 **OS**: Debian 10  
-**Shell**: Bash  
-**Editor**: Nano  
+**Shell**: bash  
+**Editor**: nano  
 **Package-Manager**: apt
 
 ## Installation
