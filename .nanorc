@@ -1,1 +1,7 @@
 set tabsize 2
+set tabstospaces
+set linenumbers
+set autoindent
+set softwrap
+set mouse
+set titlecolor white,magenta
