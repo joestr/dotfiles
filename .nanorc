@@ -3,5 +3,5 @@ set tabstospaces
 set linenumbers
 set autoindent
 set softwrap
-set mouse
+#set mouse
 set titlecolor white,magenta
