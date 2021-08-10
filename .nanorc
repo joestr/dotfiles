@@ -5,3 +5,4 @@ set linenumbers
 set softwrap
 #set mouse
 set titlecolor white,magenta
+bind ^Q copy all
