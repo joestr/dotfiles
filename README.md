@@ -2,7 +2,7 @@
 My dotfiles
 
 ## Details
-**OS**: Debian 10 (Server), Debian 11 (Server), Ubuntu Server 20.04, Xubuntu 20.04  
+**OS**: Debian 10 (Server), Debian 11 (Server), Debian 12 (Server), Ubuntu Server 20.04, Xubuntu 20.04  
 **Shell**: bash  
 **Editor**: nano  
 **Package-Manager**: apt
