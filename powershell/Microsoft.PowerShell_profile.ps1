@@ -14,4 +14,15 @@ function Global:prompt {
     return $result
 }
 
+function Disable-History {
+    $global:PSReadlineOldHistorySaveStyle = (Get-PSReadLineOption).HistorySaveStyle
+    Set-PSReadLineOption -HistorySaveStyle SaveNothing
+}
+
+function Enable-History {
+    if (Test-Path variable:PSReadlineOldHistorySaveStyle) {
+        Set-PSReadLineOption -HistorySaveStyle $global:PSReadlineOldHistorySaveStyle
+    }
+}
+
 Import-Module posh-git
