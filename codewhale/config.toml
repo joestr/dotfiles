@@ -1,0 +1,6 @@
+reasoning_effort = "auto"
+approval_policy = "on-request"
+allow_shell = true
+sandbox_mode = "workspace-write"
+low_motion = true
+fancy_animations = false
