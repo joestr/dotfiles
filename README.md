@@ -7,17 +7,23 @@ My dotfiles
 
 ### Bash
 ```bash
-wget https://raw.githubusercontent.com/joestr/dotfiles/master/.bashrc -O ~/.bashrc
-wget https://raw.githubusercontent.com/joestr/dotfiles/master/.bash_login -O ~/.bash_login
-wget https://raw.githubusercontent.com/joestr/dotfiles/master/.bash_aliases -O ~/.bash_aliases
-wget https://raw.githubusercontent.com/joestr/dotfiles/master/.bash_logout -O ~/.bash_logout
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/.bashrc -O ~/.bashrc
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/.bash_login -O ~/.bash_login
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/.bash_aliases -O ~/.bash_aliases
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/.bash_logout -O ~/.bash_logout
+```
+
+### CodeWhale
+```bash
+mkdir -p ~/.codewhale
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/codewhale/config.toml -O ~/.codewhale/config.toml
 ```
 
 ### Nano
-`wget https://raw.githubusercontent.com/joestr/dotfiles/master/.nanorc -O ~/.nanorc`
+`wget https://raw.githubusercontent.com/joestr/dotfiles/master/nano/.nanorc -O ~/.nanorc`
 
 ### Vim
-`wget https://raw.githubusercontent.com/joestr/dotfiles/master/.vimrc -O ~/.vimrc`
+`wget https://raw.githubusercontent.com/joestr/dotfiles/master/vim/.vimrc -O ~/.vimrc`
 
 For `skel`use `cd /etc/skel` first.
 
