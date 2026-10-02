@@ -25,4 +25,5 @@ function Enable-History {
     }
 }
 
+. "${env:USERPROFILE}\Documents\PowerShell\Joel.ps1"
 Import-Module posh-git
