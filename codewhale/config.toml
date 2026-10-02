@@ -2,5 +2,7 @@ reasoning_effort = "auto"
 approval_policy = "on-request"
 allow_shell = true
 sandbox_mode = "workspace-write"
+provider = "deepseek"
 low_motion = true
+route_preferences_version = 1
 fancy_animations = false
