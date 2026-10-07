@@ -11,7 +11,8 @@ wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/.bashrc -O ~/
 wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/.bash_login -O ~/.bash_login
 wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/.bash_aliases -O ~/.bash_aliases
 wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/.bash_logout -O ~/.bash_logout
-```
+mkdir -p ~/.local/share/joestr-dotfiles
+wget https://raw.githubusercontent.com/joestr/dotfiles/master/bash/joel.bash -O ~/.local/share/joestr-dotfiles/joel.bash
 
 ### CodeWhale
 ```bash

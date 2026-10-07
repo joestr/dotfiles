@@ -65,3 +65,20 @@ function Use-JoelGetWin11ComputerInfo {
   Write-Host $MemoryInfo
   return $result
 }
+
+enum HashF {SHA256; SHA384; SHA512;}
+
+function Use-JoelGetHashFromString {
+  param(
+    [HashF] $HashF,
+    [string] $InputString
+  )
+  $result = (Get-FileHash -Algorithm $HashF -InputStream ([System.IO.MemoryStream]::new([System.Text.UTF8Encoding]::new().GetBytes($InputString)))).Hash.ToLower()
+  return $result
+}
+
+function Use-JoelSetGitRepoConfigJoel {
+  git config user.name "Joel Strasser"
+  git config user.email "strasser999@gmail.com"
+  git config user.signingkey "E00E0D8F9AB343C9"
+}
